@@ -1,6 +1,6 @@
 {
   "name": "microkitjs",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Modern, lightweight utility toolkit for JavaScript and TypeScript — including object, array, string, date, and validation helpers.",
   "keywords": [
     "utility",
