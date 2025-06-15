@@ -1,0 +1,55 @@
+{
+  "name": "microkitjs",
+  "version": "1.0.2",
+  "description": "Modern, lightweight utility toolkit for JavaScript and TypeScript — including object, array, string, date, and validation helpers.",
+  "keywords": [
+    "utility",
+    "utils",
+    "helpers",
+    "typescript",
+    "toolkit",
+    "object",
+    "array",
+    "string",
+    "date",
+    "validate",
+    "minimal",
+    "microkitjs",
+    "modern"
+  ],
+  "author": "Nurul Islam Rimon",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nurulislamrimon/microkitjs"
+  },
+  "bugs": {
+    "url": "https://github.com/nurulislamrimon/microkitjs/issues"
+  },
+  "homepage": "https://github.com/nurulislamrimon/microkitjs#readme",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "tsc -w",
+    "build": "tsc",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "vitest": "^1.4.0"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "sideEffects": false
+}
